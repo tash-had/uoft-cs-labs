@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F28A7AB1FA1B3FB00934BDA /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F28A7AA1FA1B3FB00934BDA /* BNRWebViewController.m */; };
+		3F3B78691F947967007765A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B78681F947967007765A2 /* AppDelegate.m */; };
+		3F3B786C1F947967007765A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B786B1F947967007765A2 /* ViewController.m */; };
+		3F3B786F1F947967007765A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B786D1F947967007765A2 /* Main.storyboard */; };
+		3F3B78711F947967007765A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B78701F947967007765A2 /* Assets.xcassets */; };
+		3F3B78741F947967007765A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B78721F947967007765A2 /* LaunchScreen.storyboard */; };
+		3F3B78771F947967007765A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B78761F947967007765A2 /* main.m */; };
+		3F3B78811F947968007765A2 /* uoft_cs_labsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B78801F947968007765A2 /* uoft_cs_labsTests.m */; };
+		3F3B788C1F947968007765A2 /* uoft_cs_labsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B788B1F947968007765A2 /* uoft_cs_labsUITests.m */; };
+		3F3B789B1F9479E3007765A2 /* TSLabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B789A1F9479E3007765A2 /* TSLabsViewController.m */; };
+		3FF5263D1FA9861E00972CAC /* LabCellQuickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF5263C1FA9861E00972CAC /* LabCellQuickView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3B787D1F947968007765A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3B785C1F947967007765A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3B78631F947967007765A2;
+			remoteInfo = "uoft-cs-labs";
+		};
+		3F3B78881F947968007765A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3B785C1F947967007765A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3B78631F947967007765A2;
+			remoteInfo = "uoft-cs-labs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F28A7A91FA1B3FB00934BDA /* BNRWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
+		3F28A7AA1FA1B3FB00934BDA /* BNRWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRWebViewController.m; sourceTree = "<group>"; };
+		3F3B78641F947967007765A2 /* uoft-cs-labs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uoft-cs-labs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3B78671F947967007765A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3B78681F947967007765A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3B786A1F947967007765A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F3B786B1F947967007765A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F3B786E1F947967007765A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3B78701F947967007765A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3B78731F947967007765A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3B78751F947967007765A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3B78761F947967007765A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3B787C1F947968007765A2 /* uoft-cs-labsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uoft-cs-labsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3B78801F947968007765A2 /* uoft_cs_labsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uoft_cs_labsTests.m; sourceTree = "<group>"; };
+		3F3B78821F947968007765A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3B78871F947968007765A2 /* uoft-cs-labsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uoft-cs-labsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3B788B1F947968007765A2 /* uoft_cs_labsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uoft_cs_labsUITests.m; sourceTree = "<group>"; };
+		3F3B788D1F947968007765A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3B78991F9479E3007765A2 /* TSLabsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLabsViewController.h; sourceTree = "<group>"; };
+		3F3B789A1F9479E3007765A2 /* TSLabsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSLabsViewController.m; sourceTree = "<group>"; };
+		3FF5263C1FA9861E00972CAC /* LabCellQuickView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabCellQuickView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3B78611F947967007765A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3B78791F947968007765A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3B78841F947968007765A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3B785B1F947967007765A2 = {
+			isa = PBXGroup;
+			children = (
+				3F3B78661F947967007765A2 /* uoft-cs-labs */,
+				3F3B787F1F947968007765A2 /* uoft-cs-labsTests */,
+				3F3B788A1F947968007765A2 /* uoft-cs-labsUITests */,
+				3F3B78651F947967007765A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3B78651F947967007765A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B78641F947967007765A2 /* uoft-cs-labs.app */,
+				3F3B787C1F947968007765A2 /* uoft-cs-labsTests.xctest */,
+				3F3B78871F947968007765A2 /* uoft-cs-labsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3B78661F947967007765A2 /* uoft-cs-labs */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B78671F947967007765A2 /* AppDelegate.h */,
+				3F3B78681F947967007765A2 /* AppDelegate.m */,
+				3F3B786A1F947967007765A2 /* ViewController.h */,
+				3F3B786B1F947967007765A2 /* ViewController.m */,
+				3F3B78991F9479E3007765A2 /* TSLabsViewController.h */,
+				3F3B789A1F9479E3007765A2 /* TSLabsViewController.m */,
+				3F3B786D1F947967007765A2 /* Main.storyboard */,
+				3F3B78701F947967007765A2 /* Assets.xcassets */,
+				3F3B78721F947967007765A2 /* LaunchScreen.storyboard */,
+				3F3B78751F947967007765A2 /* Info.plist */,
+				3F3B78761F947967007765A2 /* main.m */,
+				3F28A7A91FA1B3FB00934BDA /* BNRWebViewController.h */,
+				3F28A7AA1FA1B3FB00934BDA /* BNRWebViewController.m */,
+				3FF5263C1FA9861E00972CAC /* LabCellQuickView.xib */,
+			);
+			path = "uoft-cs-labs";
+			sourceTree = "<group>";
+		};
+		3F3B787F1F947968007765A2 /* uoft-cs-labsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B78801F947968007765A2 /* uoft_cs_labsTests.m */,
+				3F3B78821F947968007765A2 /* Info.plist */,
+			);
+			path = "uoft-cs-labsTests";
+			sourceTree = "<group>";
+		};
+		3F3B788A1F947968007765A2 /* uoft-cs-labsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B788B1F947968007765A2 /* uoft_cs_labsUITests.m */,
+				3F3B788D1F947968007765A2 /* Info.plist */,
+			);
+			path = "uoft-cs-labsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3B78631F947967007765A2 /* uoft-cs-labs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3B78901F947968007765A2 /* Build configuration list for PBXNativeTarget "uoft-cs-labs" */;
+			buildPhases = (
+				3F3B78601F947967007765A2 /* Sources */,
+				3F3B78611F947967007765A2 /* Frameworks */,
+				3F3B78621F947967007765A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uoft-cs-labs";
+			productName = "uoft-cs-labs";
+			productReference = 3F3B78641F947967007765A2 /* uoft-cs-labs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3B787B1F947968007765A2 /* uoft-cs-labsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3B78931F947968007765A2 /* Build configuration list for PBXNativeTarget "uoft-cs-labsTests" */;
+			buildPhases = (
+				3F3B78781F947968007765A2 /* Sources */,
+				3F3B78791F947968007765A2 /* Frameworks */,
+				3F3B787A1F947968007765A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3B787E1F947968007765A2 /* PBXTargetDependency */,
+			);
+			name = "uoft-cs-labsTests";
+			productName = "uoft-cs-labsTests";
+			productReference = 3F3B787C1F947968007765A2 /* uoft-cs-labsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3B78861F947968007765A2 /* uoft-cs-labsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3B78961F947968007765A2 /* Build configuration list for PBXNativeTarget "uoft-cs-labsUITests" */;
+			buildPhases = (
+				3F3B78831F947968007765A2 /* Sources */,
+				3F3B78841F947968007765A2 /* Frameworks */,
+				3F3B78851F947968007765A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3B78891F947968007765A2 /* PBXTargetDependency */,
+			);
+			name = "uoft-cs-labsUITests";
+			productName = "uoft-cs-labsUITests";
+			productReference = 3F3B78871F947968007765A2 /* uoft-cs-labsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3B785C1F947967007765A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tash-had Saqif";
+				TargetAttributes = {
+					3F3B78631F947967007765A2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F3B787B1F947968007765A2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F3B78631F947967007765A2;
+					};
+					3F3B78861F947968007765A2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F3B78631F947967007765A2;
+					};
+				};
+			};
+			buildConfigurationList = 3F3B785F1F947967007765A2 /* Build configuration list for PBXProject "uoft-cs-labs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3B785B1F947967007765A2;
+			productRefGroup = 3F3B78651F947967007765A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3B78631F947967007765A2 /* uoft-cs-labs */,
+				3F3B787B1F947968007765A2 /* uoft-cs-labsTests */,
+				3F3B78861F947968007765A2 /* uoft-cs-labsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3B78621F947967007765A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF5263D1FA9861E00972CAC /* LabCellQuickView.xib in Resources */,
+				3F3B78741F947967007765A2 /* LaunchScreen.storyboard in Resources */,
+				3F3B78711F947967007765A2 /* Assets.xcassets in Resources */,
+				3F3B786F1F947967007765A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3B787A1F947968007765A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3B78851F947968007765A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3B78601F947967007765A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3B786C1F947967007765A2 /* ViewController.m in Sources */,
+				3F3B789B1F9479E3007765A2 /* TSLabsViewController.m in Sources */,
+				3F3B78771F947967007765A2 /* main.m in Sources */,
+				3F28A7AB1FA1B3FB00934BDA /* BNRWebViewController.m in Sources */,
+				3F3B78691F947967007765A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3B78781F947968007765A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3B78811F947968007765A2 /* uoft_cs_labsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3B78831F947968007765A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3B788C1F947968007765A2 /* uoft_cs_labsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3B787E1F947968007765A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3B78631F947967007765A2 /* uoft-cs-labs */;
+			targetProxy = 3F3B787D1F947968007765A2 /* PBXContainerItemProxy */;
+		};
+		3F3B78891F947968007765A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3B78631F947967007765A2 /* uoft-cs-labs */;
+			targetProxy = 3F3B78881F947968007765A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3B786D1F947967007765A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3B786E1F947967007765A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3B78721F947967007765A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3B78731F947967007765A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3B788E1F947968007765A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3B788F1F947968007765A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3B78911F947968007765A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "uoft-cs-labs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tash-had.uoft-cs-labs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3B78921F947968007765A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "uoft-cs-labs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tash-had.uoft-cs-labs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F3B78941F947968007765A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "uoft-cs-labsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tash-had.uoft-cs-labsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uoft-cs-labs.app/uoft-cs-labs";
+			};
+			name = Debug;
+		};
+		3F3B78951F947968007765A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "uoft-cs-labsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tash-had.uoft-cs-labsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uoft-cs-labs.app/uoft-cs-labs";
+			};
+			name = Release;
+		};
+		3F3B78971F947968007765A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "uoft-cs-labsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tash-had.uoft-cs-labsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "uoft-cs-labs";
+			};
+			name = Debug;
+		};
+		3F3B78981F947968007765A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "uoft-cs-labsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tash-had.uoft-cs-labsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "uoft-cs-labs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3B785F1F947967007765A2 /* Build configuration list for PBXProject "uoft-cs-labs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B788E1F947968007765A2 /* Debug */,
+				3F3B788F1F947968007765A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3B78901F947968007765A2 /* Build configuration list for PBXNativeTarget "uoft-cs-labs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B78911F947968007765A2 /* Debug */,
+				3F3B78921F947968007765A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3B78931F947968007765A2 /* Build configuration list for PBXNativeTarget "uoft-cs-labsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B78941F947968007765A2 /* Debug */,
+				3F3B78951F947968007765A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3B78961F947968007765A2 /* Build configuration list for PBXNativeTarget "uoft-cs-labsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B78971F947968007765A2 /* Debug */,
+				3F3B78981F947968007765A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3B785C1F947967007765A2 /* Project object */;
+}
