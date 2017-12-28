@@ -39,11 +39,7 @@
     
 
 
-    if (cell.tag){
-        NSLog(@"%d", cell.tag);
-    }else{
-        cell.tag = indexPath.row;
-    }
+    cell.tag = indexPath.row;
     // Get this cells UIView
     UIView *cellQuickView = [_LabCellQuickViewsArray objectAtIndex:cell.tag];
     
@@ -54,13 +50,14 @@
     
     // Prepare Data
     int availableInt = [[lab objectForKey:@"available"] intValue];
-    float percentFloat = 75;
+    float percentFloat = [[lab objectForKey:@"percent"] floatValue];
     NSString *freeOrBusy;
     if (percentFloat >= 60.0){
         freeOrBusy = @"BUSY";
         cellQuickView.backgroundColor = [UIColor redColor];
     }else{
         freeOrBusy = @"FREE";
+        cellQuickView.backgroundColor = [UIColor greenColor];
     }
     
     // Set Data
@@ -70,7 +67,7 @@
             
             if ([newLabel.text  isEqual: @"DENSITY"]){
                 newLabel.text = freeOrBusy;
-            }else{
+            }else if (![newLabel.text isEqualToString:@"FREE"] && ![newLabel.text isEqualToString:@"BUSY"]){
                 newLabel.text =  [NSString stringWithFormat:@"%d", availableInt];
             }
         }
@@ -112,7 +109,6 @@
         // Create array with cellQuickView's
         _LabCellQuickViewsArray = [[NSMutableArray alloc] init];
         for (int i = 0;i < [_labs count];i++){
-            NSLog(@"adding");
             UIView *cellQuickView = [[[NSBundle mainBundle] loadNibNamed:@"LabCellQuickView" owner:self options:nil] objectAtIndex:0];
             [_LabCellQuickViewsArray addObject:cellQuickView];
         }
